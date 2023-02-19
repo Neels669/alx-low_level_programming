@@ -3,7 +3,7 @@
 /**
  * main - define integers of data types
  *
- * Return - Success (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
