@@ -34,4 +34,4 @@ Task 8 - (101-quote.c) - C program that prints exactly:
 
 and that piece of art is useful" - Dora Korpar, 2015-10-19
 
-followed by a new line, to the standard error. Not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts. Program returns 1.
+followed by a new line, to the standard error. Not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts. Program returns 1.In this case, write() has been used. This function only prints string characters. The no of bytes is specified.
