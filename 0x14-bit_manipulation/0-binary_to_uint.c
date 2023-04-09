@@ -1,3 +1,8 @@
+#include "main.h"
+#include <stdio.h>
+
+
+
 /**
  * binary_to_uint - convert binary string to decimal
  * @b: binary string
@@ -7,8 +12,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int decimal;
-	unsigned int i;
+	unsigned int decimal, i;
 
 	for (decimal = 0, i = 0; b[i] != '\0'; i++)
 	{
