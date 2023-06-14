@@ -31,4 +31,7 @@ Create the static library **libmy.a** containing all the functions listed below:
 - char *_strpbrk(char *s, char *accept);
 - char *_strstr(char *haystack, char *needle);
 
+Note: The prototypes of all the functions listed above is included in the header file called main.h
+
+Started this project by creating empty .c files with each file containing each prototype functions. 
 
