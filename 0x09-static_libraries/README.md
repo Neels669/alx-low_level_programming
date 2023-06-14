@@ -8,7 +8,7 @@ Basic usage of ar, ranlib, nm.
 
 **TASKS**
 
-Create the static library **libmy.a** containing all the functions listed below:
+1) Create the static library **libmy.a** containing all the functions listed below:
 
 - int _putchar(char c);
 - int _islower(int c);
@@ -34,4 +34,15 @@ Create the static library **libmy.a** containing all the functions listed below:
 Note: The prototypes of all the functions listed above is included in the header file called main.h
 
 Started this project by creating empty .c files with each file containing each prototype functions. 
+
+All the .c files created in this repository are then compiled using the below code in linux shell:
+**gcc -c *.c**
+
+ To create the static library for all the functions, the below code is then execute in linux shell:
+ 
+
+
+
+
+
 
