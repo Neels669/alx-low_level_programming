@@ -39,9 +39,13 @@ All the .c files created in this repository are then compiled using the below co
 **gcc -c *.c**
 
  To create the static library for all the functions, the below code is then execute in linux shell:
- 
+  **ar -rc libmy.a *.o**
 
+2) create_static_lib.sh
+Script hat creates a static library called liball.a from all the .c files that are in the current directory.
 
+3) liball.a
+Library created from executing the script above.
 
 
 
