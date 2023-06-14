@@ -2,12 +2,16 @@
 
 This project aims to learn the below:
 
-Pointers and how to use them
-Arrays and how to use them
-Differences between pointers and arrays
-How to use strings and how to manipulate them
-Scope of variables
+Pointers and how to use them.
+
+Arrays and how to use them.
+
+Differences between pointers and arrays.
+
+How to use strings and how to manipulate them.
+
 Note: The prototypes of all the functions and the prototype of the function _putchar is included in the header file called main.h ~ You have to start by creating your main.h
+
 main.h is the header file containing all the function prototypes used in this project.
 
 **TASKS**
