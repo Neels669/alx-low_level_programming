@@ -8,6 +8,7 @@
  *
  * Return: actual number of letters read, 0 if end of file
  */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t file, let, w;
