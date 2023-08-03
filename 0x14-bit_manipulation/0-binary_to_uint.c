@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* binary_to_uint - converts a binary number to an unsigned int
-* @b: pointer to a string of a 0 and 1 characters
-*
-* Return: the converted number or 0 if fails
-*/
-unsigned int binary_to_uint(const char *b);
+ * converts a binary number to an unsigned int
+ * @b: pointer to a string of a 0 and 1 characters
+ *
+ * Return: the converted number or 0 if fails
+ */
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int total, power;
 	int len;
