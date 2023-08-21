@@ -42,6 +42,17 @@ First created empty c files with the prototpes provided above (abs.c   isalpha.c
 To create the dynamic library from the C files in linux, follow the steps:
 - gcc -c -fPIC *.c
 - gcc -shared -o libdynamic.so *.o
+
 To verify that you did it and have the right functions as dynamic symbols you can use:
 - nm -D libdynamic.so
+
+* 1-create_dynamic_lib.sh
+Script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
+
+* 100-operations.so
+Dynamic library that contains C functions that can be called from Python. **100-tests.py** Provided python code. **functions.c**  file created for basic sum / sunstraction / multiplication / division. **op.h** Header for functions.c. Finally followed the same steps in creating a dynamic library **100-operations.so**
+
+Code can be tested with running **python3 100-tests.py** in unix
+
+**END**
 
