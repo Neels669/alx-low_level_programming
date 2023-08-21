@@ -14,7 +14,8 @@ Note: The prototypes of all the functions and the prototype of the function _put
 
 **TASKS**
 
-* libdynamic.so
+ libdynamic.so
+ 
 Create the dynamic library **libdynamic.so** containing all the functions listed below:
 - int _putchar(char c);
 - int _islower(int c);
@@ -47,6 +48,7 @@ To verify that you did it and have the right functions as dynamic symbols you ca
 - nm -D libdynamic.so
 
 * 1-create_dynamic_lib.sh
+  
 Script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
 
 * 100-operations.so
